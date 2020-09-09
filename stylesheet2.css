@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: auto;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
+    clear: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-wrapper {
+    background-image: url(img/IMG_7541.JPG);
+    height: 500px
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper h1 {
+    font-size: 100px;
+    background-color: rgb(0, 108, 79, 0.5);
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
+.middle-wrapper {
+    height: 500px;
+    background-color: black;
+}
+
+.bottom-wrapper {
+    height: 500px;
+    background-color: green;
+}
+
+.middle-wrapper h2 {
+    font-size: 50px;
+    background-color: rgb(0, 108, 79);
+    padding: 0 0 0 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.groups {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.group {
+    width: 50%;
+    padding: 10px 10px;
+    background-color: red;
+}
+
+.groupicon img {
+    width: 60%;
+}
+
+.grouptext {
+    text-align: left;
+    padding-left: 80px;
+}
+
+@media (max-width: 500px) {
+    .top-wrapper {
+        background-image: url(img/IMG_7535.JPG);
+        height: 300px
+    }
+
+    .top-wrapper h1 {
+        font-size: 50px;
+        background-color: yellow;
+        padding: 0 0 0 30px;
+        margin: 0;
+    }
+
+    .group {
+        width: 100%
+    }
+}
